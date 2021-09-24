@@ -45,6 +45,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, SwipeRefreshLayo
         submit_btn.setOnClickListener(this)
         main_swipe_refresh_view.setOnRefreshListener(this)
 
+
+
+
     }
 
     private fun observeUsersListResponse(){
